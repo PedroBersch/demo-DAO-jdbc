@@ -11,7 +11,6 @@ public class Seller implements Serializable {
     private Double baseSalary;
     private Department department; //Seller has a department SQL notation
     public Seller(){
-
     }
 
     public Seller(Integer id, String name, String email, Date birthDate, Double baseSalary, Department department) {
